@@ -1,0 +1,216 @@
+<!DOCTYPE HTML>
+<html lang="ru">
+	<head>
+		<meta charset = "utf-8">
+    	<title>Магазин готовых шаблонов - Nёrds</title>
+    	<link href="css/normalize.css" rel="stylesheet">
+    	<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;subset=cyrillic" rel="stylesheet">
+    	<link href="css/style.css" rel="stylesheet">		
+	</head>
+	<body>
+ 		<header class="main-header">
+ 			<div class="container clearfix">
+ 				<nav class="main-navigation clearfix">
+ 					<a href="index.html" class="logo-header">
+ 						<img src="img/logo.png" class="logo" alt="Студия NЁRDS">
+ 					</a>
+ 					<ul>
+ 						<li>
+ 							<a href="#">Студия</a>
+ 						</li>
+ 						<li>
+ 							<a href="#">Клиенты</a>
+ 						</li>
+ 						<li>
+ 							<a class="active">Магазин</a>
+ 						</li>
+ 						<li>
+ 							<a href="#footer-contacts">Контакты</a>
+ 						</li>
+ 					</ul>
+ 				</nav>
+ 				<div class="user-cart">
+ 					<a href="#">Корзина</a>
+ 				</div>
+ 			</div>
+ 			<div class="container clearfix">
+ 				<h1 class="page-title">Магазин готовых шаблонов</h1>	
+ 			</div>
+ 		</header>
+ 		<main class="container clearfix page-content">
+ 			<section class="sidebar">
+ 				<form>
+ 					<div class="price-filter clearfix">
+ 						<h2 class="price-slider-title">Стоимость:</h2>
+ 						<div class="price-slider">
+ 							<div class="price-slider-bar">
+ 								<div class="price-slider-range">
+ 									<div class="range-control range-control-min"></div>
+ 									<div class="range-control range-control-max"></div>
+ 								</div>
+ 							</div>
+ 						</div>
+ 						<label class="range-text range-text-begin">ОТ<input type="text" name="range-begin" value="0" readonly></label>
+ 						<label class="range-text range-text-end">ДО<input type="text" name="range-end" value="15 000" readonly></label>
+ 					</div>
+ 					<h2 class="grid-filter-title">Сетка:</h2>
+ 					<ul class="grid-filter">
+ 						<li>
+ 							<label><input type="radio" name="grid" checked><span class="grid-radio-indicator"></span>Адаптивная</label>
+ 						</li>
+ 						 <li>
+ 							<label><input type="radio" name="grid"><span class="grid-radio-indicator"></span>Фиксированная</label>
+ 						</li>
+ 						 <li>
+ 							<label><input type="radio" name="grid"><span class="grid-radio-indicator"></span>Резиновая</label>
+ 						</li> 						
+ 					</ul>
+ 					<h2 class="features-filter-title">Особенности:</h2>
+ 					<ul class="features-filter">
+ 						<li>
+ 							<label><input type="checkbox" name="feature" checked><span class="features-checkbox-indicator"></span>Слайдер</label>
+ 						</li>
+ 						 <li>
+ 							<label><input type="checkbox" name="feature"><span class="features-checkbox-indicator"></span>Блок преимуществ</label>
+ 						</li>
+ 						 <li>
+ 							<label><input type="checkbox" name="feature"><span class="features-checkbox-indicator"></span>Новости</label>
+ 						</li>
+ 						 <li>
+ 							<label class="disabled-item"><input type="checkbox" name="feature" disabled><span class="features-checkbox-indicator"></span>Галерея</label>
+ 						</li> 
+ 						 <li>
+ 							<label><input type="checkbox" name="feature"><span class="features-checkbox-indicator"></span>Корзина</label>
+ 						</li>  						
+ 					</ul>
+ 					<button type="submit" class="btn price-filter-btn">Показать</button>					
+ 				</form>
+ 			</section>
+ 			<section class="main-content">
+ 				<div class="shop-filter clearfix">
+ 					<h2 class="shop-filter-left">Сортировать:</h2>
+ 					<div class="shop-filter-right">
+ 						<a href="#" class="shop-filter-price shop-filter-active">По цене</a>
+ 						<a href="#" class="shop-filter-type">По типу</a>
+ 						<a href="#" class="shop-filter-name">По названию</a>
+ 						<a href="#" class="shop-filter-dec shop-filter-active">По убыванию</a>
+ 						<a href="#" class="shop-filter-inc">По возрастанию</a>
+ 					</div>
+ 				</div>
+ 				<div class="portfolio clearfix">
+ 					<div class="portfolio-item item-1">
+ 						<div class="browser"></div>
+ 						<a href="#"><img src="img/item-1.jpg"></a>
+ 						<div class="item-description">
+ 							<p class="item-title">Sedona</p>
+ 							<p class="item-text">Информационный сайт для туристов</p>
+ 							<button class="btn">9 900 руб.</button>
+ 						</div>	
+ 					</div>
+ 					<div class="portfolio-item item-2">
+ 						<div class="browser"></div>
+ 						<a href="#"><img src="img/item-2.jpg"></a>
+ 						<div class="item-description">
+ 							<p class="item-title">Pink App</p>
+ 							<p class="item-text">Продуктовый лендинг приложения для iOS и Android</p>
+ 							<button class="btn">9 900 руб.</button>
+ 						</div>	
+ 					</div> 					
+ 					<div class="portfolio-item item-3">
+ 						<div class="browser"></div>
+ 						<a href="#"><img src="img/item-3.jpg"></a>
+ 						<div class="item-description">
+ 							<p class="item-title">Barbershop</p>
+ 							<p class="item-text">Сайт салоны красоты. Для мужчин, да.</p>
+ 							<button class="btn">9 900 руб.</button>
+ 						</div>	
+ 					</div>
+ 					<div class="portfolio-item item-4">
+ 						<div class="browser"></div>
+ 						<a href="#"><img src="img/item-4.jpg"></a>
+ 						<div class="item-description">
+ 							<p class="item-title">MISHKA</p>
+ 							<p class="item-text">Интернет-магазин вязаных игрушек </p>
+ 							<button class="btn">9 900 руб.</button>
+ 						</div>	
+ 					</div>
+ 					<div class="portfolio-item item-5">
+ 						<div class="browser"></div>
+ 						<a href="#"><img src="img/item-5.jpg"></a>
+ 						<div class="item-description">
+ 							<p class="item-title">A Plus</p>
+ 							<p class="item-text">Лендинг курсов повышения квалификации</p>
+ 							<button class="btn">9 900 руб.</button>
+ 						</div>	
+ 					</div>
+ 					<div class="portfolio-item item-6">
+ 						<div class="browser"></div>
+ 						<a href="#"><img src="img/item-6.jpg"></a>
+ 						<div class="item-description">
+ 							<p class="item-title">КВАСТ</p>
+ 							<p class="item-text">Промо-сайт производителя крафтового кваса</p>
+ 							<button class="btn">9 900 руб.</button>
+ 						</div>	
+ 					</div> 					 					 					 		
+ 				</div>
+ 				<div class="pagination">
+ 					<a class="current">1</a>
+ 					<a href="#">2</a>
+ 					<a href="#">3</a>
+ 					<a href="#" class="pagination-next">Следующая</a>
+ 				</div>
+ 			</section>
+ 		</main>
+ 		<footer id="footer-contacts">
+ 			<section class="map-section">
+ 				<div class="map">
+ 					<iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A61e4eb3cb20db01a3a543eecfd8eee0a39b09ea3a67254231b4d7c8c15fe32d6&amp;source=constructor" width="100%" height="416" frameborder="0"></iframe>
+ 				</div>
+ 				<div class="map-content">
+ 					<div class="container">	
+ 						<div class="contacts">				
+ 			    			<h3>NЁRDS DESIGN STUDIO</h3>
+ 							<p class="contacts-address">191186, Санкт-Петербург,<br>
+ 							ул. Б. Конюшенная, д. 19/8</p>
+ 							<p class="contacts-phone">тел. +7 (812) 275-75-75</p>
+ 							<a href="#" class="btn modal-open">Напишите нам</a>
+ 						</div>
+ 					</div>
+ 				</div>
+ 			</section>
+ 			<section class="social-media container clearfix">
+ 				<div class="social-media-icons">
+ 					<a href="#" class="social-btn social-btn-vk">ВКонтакте</a>
+ 					<a href="#" class="social-btn social-btn-fb">Facebook</a>
+ 					<a href="#" class="social-btn social-btn-inst">Instagram</a>
+ 				</div>
+ 				<div class="social-promo">
+ 					<p class="promo-title">Давайте дружить, это выгодно!</p>
+ 					<p class="promo-text">Скидка 10% для друзей из социальных сетей.</p>
+ 				</div>
+ 			</section>
+ 			<p class="copyright">Макет предоставлен <a href="https://htmlacademy.ru/" target="_blank">HTML Academy</a></p>
+ 		</footer>
+ 		<div class="modal">
+ 			<div class="modal-content">
+ 				<button type="button" class="modal-close" title="Закрыть">Закрыть</button>
+ 				<h2 class="modal-title">Напишите нам</h2>
+ 				<form method="post" class="contact-form clearfix">
+ 					<div class="contact-left-column">
+ 						<label for="post-name">Ваше имя:</label>
+ 						<input type="text" name="name" placeholder="Представьтесь, пожалуйста" id="post-name">				
+ 					</div>
+ 					<div class="contact-right-column">
+ 						<label for="post-mail">Ваше e-mail:</label>
+ 						<input type="email" name="mail" placeholder="Для отправки ответа" id="post-mail"> 
+ 					</div>
+ 					<label for="post-text">Текст письма:</label>
+ 					<textarea name="text" rows="5" placeholder="В свободной форме" id="post-text"></textarea>
+ 					<button type="submit" class="btn">Отправить</button>
+ 				</form>
+ 			</div>
+ 		</div>
+ 		<div class="modal-overlay"></div>
+ 		<script type="text/javascript" src="js/popup.js"></script>
+	</body>
+</html>
